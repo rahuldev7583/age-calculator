@@ -38,7 +38,7 @@ function run(){
      let sleepYear = Math.trunc(totalSleepDays / 365);
      let sleepMonth = Math.trunc((totalSleepDays % 365) / 30);
      let sleepDay = (totalSleepDays % 365) % 30;
-     let sen = `<p class="para">If you sleep 8hr per day which we most of us do. <span id="span">It means you slept ${sleepYear} years ${sleepMonth} months and ${sleepDay} days.</span> We spend around 2hr per day on eating, bathing, cleaning etc and nowadays we spend around 2hr per day on our phone. It means you spend ${sleepYear / 2} years ${sleepMonth / 2} months and ${sleepDay / 2} days on just eating, bathing and scrolling your phone.</p>`;
+     let sen = `<p class="para">If you sleep 8hr per day which we most of us do. <span>It means you slept ${sleepYear} years ${sleepMonth} months and ${sleepDay} days.</span> We spend around 2hr per day on eating, bathing, cleaning etc and nowadays we spend around 2hr per day on our phone. It means you spend ${sleepYear / 2} years ${sleepMonth / 2} months and ${sleepDay / 2} days on just eating, bathing and scrolling your phone.</p>`;
      return result + sen;
  };
 document.getElementById('form').innerHTML = diff();
