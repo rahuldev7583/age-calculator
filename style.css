@@ -134,14 +134,14 @@ a {
     margin: 1rem 3rem 0 8rem;
     width: 80%;
   }
-  span{
+  span {
     font-size: 2.2rem;
   }
   #bottom {
     text-align: center;
   }
-.logo {
-    width: 6%;
+  .logo {
+    width: 5%;
   }
   .bot-p,
   #bottom p {
